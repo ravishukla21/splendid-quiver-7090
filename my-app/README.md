@@ -1,4 +1,4 @@
-![Alt text](url "Title")
+
 
 <h1>Ezyshop</h1>
 
