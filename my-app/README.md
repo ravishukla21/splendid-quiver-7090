@@ -8,16 +8,15 @@ This is a clone of Amazon.com, which is the one of the world's largest online ec
 
 
 <h3>About the Project:</h3>
-Ezyshop is a clone of Amazon which was made by a group of 5 members in a span of 5 days. The motive of making this was to practise and test our skills that we acquired as of now in Masai School.
-    Group Members:
+Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 5 days. The motive of making this was to practise and test our skills that we acquired as of now in Masai School.    
         
 
            
 <h3>Screenshots:</h3>
-<img src="/src/images/ScreenShot.PNG" alt="screenshot">
+<img src="https://drive.google.com/file/d/1WylTqYaICHtp9Ze0sELZq_lNuLVZToqO/view?usp=share_link" alt="screenshot">
 
 <h3>Technologies Used:</h3>
--React
+-React <br>
 -Chakra UI
 -React-Redux
 -Firebase
