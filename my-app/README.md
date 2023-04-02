@@ -13,7 +13,7 @@ Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 
 
            
 <h3>Screenshots:</h3>
-<img src="[https://drive.google.com/file/d/1WylTqYaICHtp9Ze0sELZq_lNuLVZToqO/view?usp=share_link](https://drive.google.com/file/d/1WylTqYaICHtp9Ze0sELZq_lNuLVZToqO/view?usp=share_link)" alt="screenshot">
+<img src="src/images/ScreenShot.PNG" alt="screenshot" />
 
 <h3>Technologies Used:</h3>
 <ul>
