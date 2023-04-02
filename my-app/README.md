@@ -24,12 +24,7 @@ Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 
         <li>Reqres</li>
         <li>CSS</li>
 </ul>
--React <br>
--Chakra UI <br>
--React-Redux <br>
--Firebase <br>
--Reqres <br>
--CSS <br>
+
 
 <h3>Getting Started</h3>
 To get started with the project, you can either clone this repository to your local machine:
@@ -39,13 +34,16 @@ Or you can fork the repository to your own GitHub account and clone your forked 
 Once you have the code on your machine, open the project folder in your code editor and start coding.
 
 <h3>Project Structure</h3>
+
+
+
 -my-app <br>
     -src <br>
-        -Components
-        -images
-        -Pages
-        -Redux
-        -Styling
+        -Components <br>
+        -images <br>
+        -Pages <br>
+        -Redux <br>
+        -Styling <br>
 
         
 
