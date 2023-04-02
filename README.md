@@ -6,12 +6,22 @@ This is a clone of Amazon.com, which is the one of the world's largest online ec
 
 
 <h3>About the Project:</h3>
-Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 5 days. The motive of making this was to practise and test our skills that we acquired as of now in Masai School.    
-        
+Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 5 days. The motive of making this was to practise and test our skills that we acquired as of now in Masai School. 
+
+## Contributors  😇
+
+
+- 👤 [Neha Phadtare](https://github.com/NehaP0)
+- 👤 [Neeraj Singh Bisht](https://github.com/bisht1418)
+- 👤 [Priyanshu Pawar](https://github.com/priyanshupawar)
+- 👤 [Anmol Sahota](https://github.com/AnmolSahota)
+- 👤 [Ravi Shukla](https://github.com/ravishukla21)
+
+
 
            
 <h3>Screenshots:</h3>
-<img src="src/images/ScreenShot.PNG" alt="screenshot">
+<img src="src/images/ScreenShot.PNG" alt="screenshot" />
 
 <h3>Technologies Used:</h3>
 <ul>
