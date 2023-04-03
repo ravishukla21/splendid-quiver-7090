@@ -8,6 +8,15 @@ This is a clone of Amazon.com, which is the one of the world's largest online ec
 <h3>About the Project:</h3>
 Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 5 days. The motive of making this was to practise and test our skills that we acquired as of now in Masai School. 
 
+
+## Features ✨
+
+- User authentication, admin authentication.
+- Dynamic Products.
+- Filtering, Sorting, Search functionalities.
+- Create, Read, Update, Delete fucntionalities.
+- All the pages are responsive.
+
 ## Contributors  😇
 
 
@@ -16,7 +25,6 @@ Ezyshop is a clone of Amazon which is made by a group of 5 members in a span of 
 - 👤 [Priyanshu Pawar](https://github.com/priyanshupawar)
 - 👤 [Anmol Sahota](https://github.com/AnmolSahota)
 - 👤 [Ravi Shukla](https://github.com/ravishukla21)
-
 
 
            
@@ -49,7 +57,6 @@ Once you have the code on your machine, open the project folder in your code edi
     │    └── images
     │    └── Pages
     │    └── Redux
-    │    └── Styling
-        
+    │    └── Styling  
 
 
