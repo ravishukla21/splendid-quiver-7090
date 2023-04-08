@@ -10,8 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { auth } from "../firebase";
 import Shoes from "../Pages/Shoes";
 import { ChangeUserAuthStatusAction } from "../Redux/AuthReducer/action";
-
-
+import PlacementExample from "./PlacementExample";
 
 const Headerstylecont = Styled.div`
     height:80px;
@@ -49,25 +48,23 @@ z-index: 100;
 const Header123 = () => {
   const [isAuth, setisAuth] = useState(false);
   const [name, setName] = useState("");
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
-  useState(()=>{
-
+  useState(() => {
     auth.onAuthStateChanged((user) => {
-       //console.log(user.displayName);
+      //console.log(user.displayName);
       if (user.displayName !== null) {
         setisAuth(true);
         setName(user.displayName);
-        
       }
     });
-  },[])
+  }, []);
 
-  useEffect(()=>{
-    dispatch(ChangeUserAuthStatusAction)    
-  },[isAuth])
+  useEffect(() => {
+    dispatch(ChangeUserAuthStatusAction);
+  }, [isAuth]);
 
- // console.log(isAuth);
+  // console.log(isAuth);
 
   const cartLength = useSelector((store) => store.cartReducer.cartData.length);
 
@@ -95,13 +92,15 @@ const Header123 = () => {
       </Paragraph>
 
       <div className={styles.header_search}>
-        <input className={`${styles.header_searchinput} `} type="text" />
+        <PlacementExample />
+
         {/* search logo */}
-        <SearchIcon className={styles.header_searchicon} />
       </div>
       <div className={styles.header_nav}>
         <div className={`${styles.header_option}  `}>
-          <span className={styles.header_optionlineone}>Hello {(!isAuth)?" Guest":name}  </span>
+          <span className={styles.header_optionlineone}>
+            Hello {!isAuth ? " Guest" : name}{" "}
+          </span>
           <span
             className={`${styles.header_optionlinetwo} ${styles.primeimagehover123}`}
           >
@@ -130,9 +129,10 @@ const Header123 = () => {
                       }}
                     >
                       Customer SignIn
-                    </button></Link>
-                    :
-                    {/* <button
+                    </button>
+                  </Link>
+                  :
+                  {/* <button
                       style={{
                         border: "yellow",
                         backgroundColor: "rgb(205,144,66)",
@@ -148,8 +148,6 @@ const Header123 = () => {
                       Customer SignOut
                     </button>
                     } */}
-                  
-                  
                 </div>
                 <div>
                   <span>For Developers</span>
