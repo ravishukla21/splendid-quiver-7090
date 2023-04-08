@@ -60,7 +60,7 @@ export default function SearchCard({
             {description}
           </Box>
 
-          <LinkOverlay as={Link} to={`/singleShoe/${id}`} />
+          <LinkOverlay as={Link} to={`/singleProduct/${id}`} />
 
           <Box textAlign={"center"}>
             <Box as="span" color="black" fontSize="lg">
@@ -68,9 +68,9 @@ export default function SearchCard({
             </Box>
             <Text fontSize="4xl">{price}</Text>
           </Box>
-          <Box pb={2} textAlign={"center"}>
+          {/* <Box pb={2} textAlign={"center"}>
             <AlertDialogue text="Add To Cart" />
-          </Box>
+          </Box> */}
 
           {price < 800 ? (
             <Box
