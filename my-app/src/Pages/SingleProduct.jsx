@@ -14,7 +14,6 @@ import {
 } from "../Redux/CartReducer/action";
 import styles from "../Styling/Cart.module.css";
 
-
 const SingleProduct = () => {
   let dispatch = useDispatch();
   const [data, setdata] = useState({});
@@ -63,10 +62,9 @@ const SingleProduct = () => {
           <Grid
             gridTemplateColumns={{ sm: "repeat(1,1fr)", md: "repeat(2,1fr)" }}
             columnGap={10}
-            
           >
             <GridItem>
-              <Img src={data.image} height={"40%"} width={"100%"}></Img>
+              <Img src={data.image} height={"20%"} width={"80%"}></Img>
             </GridItem>
             <GridItem>
               <Text className={`${styles.cartGreen} ${styles.cartUnderLine}`}>
