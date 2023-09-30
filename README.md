@@ -1,6 +1,6 @@
 # splendid-quiver-7090
 
-<h1>Ezyshop</h1>
+<h1>yourcart</h1>
 
 This is a clone of Amazon.com, which is the one of the world's largest online ecommerce websites.
 
